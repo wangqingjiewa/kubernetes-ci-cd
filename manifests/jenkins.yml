@@ -55,7 +55,7 @@ spec:
         tier: jenkins
     spec:
       containers:
-      - image: jenkinw/jenkins
+      - image: jenkins/jenkins
         name: jenkins
         securityContext:
           privileged: true
